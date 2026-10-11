@@ -1,0 +1,17 @@
+{
+ "schemaVersion": 2,
+ "version": "20261011T201912Z-c5efc4d3",
+ "syncedAt": "2026-10-11T20:19:12Z",
+ "generatedAt": "2026-10-11T20:19:12Z",
+ "universe": {
+  "path": "snapshot/20261011T201912Z-c5efc4d3/universe.json",
+  "sha256": "1b64d9e162679201b7d31825eef89a3b880d85efcdbe2f9d12556a3eb20dd45a",
+  "bytes": 36676
+ },
+ "archive": {
+  "path": "snapshot/20261011T201912Z-c5efc4d3/archive.json",
+  "sha256": "06d9c0bf84d03e0e4f01acb2481e7cd5991c7e776d91d031458ceccef966ebae",
+  "bytes": 175908
+ },
+ "previous": []
+}
