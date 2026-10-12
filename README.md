@@ -16,3 +16,5 @@ No snapshots have been published yet. Source code, ingestion state and credentia
 of this repository. Provided as is, with no warranty of accuracy, completeness or availability.
 
 Maintainer: Isha Chaudhari — https://www.linkedin.com/in/ishachaudhari/
+
+- [Privacy policy](privacy/) for the ORBIT browser extension.

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORBIT Privacy Policy</title>
+<meta name="description" content="Privacy policy for ORBIT — AI News &amp; Research, a Chrome new tab extension.">
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0b0b0b; color: #f4f4f4; font: 16px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  h1 { font-size: 1.7rem; margin: 0 0 .25rem; letter-spacing: .04em; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; color: #c4b5fd; letter-spacing: .06em; text-transform: uppercase; }
+  p, li { color: #e4e4e4; }
+  .muted { color: #b8b8b8; }
+  a { color: #c4b5fd; }
+  code { background: #151515; padding: .1em .35em; border: 1px solid #2a2a2a; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td { border: 1px solid #2a2a2a; padding: .45rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #151515; }
+</style>
+</head>
+<body>
+<main>
+<h1>ORBIT Privacy Policy</h1>
+<p class="muted">Applies to the Chrome extension “ORBIT — AI News &amp; Research” (version 1.0.0). Effective 11 October 2026.</p>
+
+<h2>Summary</h2>
+<p>ORBIT has no accounts and no analytics, and it does not collect, sell or share personal data. Your bookmarks and settings stay on your device. The only thing ORBIT sends over the network is a request for a public news file on GitHub Pages.</p>
+
+<h2>Who is responsible</h2>
+<p>ORBIT is an independent project by Isha Chaudhari (<a href="https://www.linkedin.com/in/ishachaudhari/">LinkedIn</a>). It is not affiliated with or endorsed by any publisher or company it links to.</p>
+
+<h2>Data stored on your device</h2>
+<p>ORBIT uses Chrome’s <code>storage</code> permission (<code>chrome.storage.local</code>) to keep the following on your computer only:</p>
+<table>
+<tr><th>Data</th><th>Purpose</th></tr>
+<tr><td>Signals you save (story IDs and the time you saved them)</td><td>Your “Saved Signals” list</td></tr>
+<tr><td>Preferences (topics and sources shown, map density, motion setting)</td><td>Customizing the map</td></tr>
+<tr><td>The last downloaded news snapshot and its sync status (timestamps, version, last error)</td><td>Showing the map instantly and offline</td></tr>
+</table>
+<p>This data is not sent to the developer or to any server, and ORBIT does not use Chrome Sync for it. You can remove it by uninstalling ORBIT or clearing the extension’s data in Chrome.</p>
+
+<h2>Network requests</h2>
+<p>When you open a new tab, ORBIT may download a news snapshot (static JSON files) from <code>https://ishacm.github.io/orbit-data/</code>, hosted by GitHub Pages. It does this in the background, at most about once every 30 minutes. These requests:</p>
+<ul>
+<li>are plain downloads: they contain no account, identifier, bookmarks, settings or browsing data, and are sent without cookies;</li>
+<li>are visible to the host like any web request — GitHub can see your IP address, browser user agent and the time of the request, and handles that under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The developer does not receive these logs;</li>
+<li>are the only network requests ORBIT makes. The extension is limited to this address by its Content Security Policy. ORBIT uses no analytics, advertising, tracking pixels, remote code or remote fonts.</li>
+</ul>
+<p>If you are offline, ORBIT keeps showing the last snapshot stored on your device.</p>
+
+<h2>What the news data contains</h2>
+<p>The snapshots are generated automatically from public sources (publisher blogs and feeds, GitHub releases, arXiv and Hacker News). They contain public story titles, short excerpts, links, dates and topics. They contain no information about ORBIT users.</p>
+
+<h2>Links and clipboard</h2>
+<p>When you click a story’s source link, it opens the publisher’s site in a new tab; that site’s own privacy policy applies, and ORBIT sends it no data. “Copy link” writes a story’s URL to your clipboard only when you click it. ORBIT does not read your clipboard.</p>
+
+<h2>What ORBIT does not do</h2>
+<ul>
+<li>It does not read your tabs, history, bookmarks or the pages you visit.</li>
+<li>It does not request host permissions or any permission other than <code>storage</code>.</li>
+<li>It does not use data for advertising, credit or lending decisions, or sell or transfer it to third parties.</li>
+<li>It does not call AI services or send anything to an AI model.</li>
+</ul>
+
+<h2>Children</h2>
+<p>ORBIT is not directed at children under 13 and collects no personal information from anyone.</p>
+
+<h2>Changes</h2>
+<p>If ORBIT’s data practices change, this page will be updated and the effective date above changed before the new version is released.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: message the developer on <a href="https://www.linkedin.com/in/ishachaudhari/">LinkedIn</a>.</p>
+</main>
+</body>
+</html>
