@@ -1,24 +1,24 @@
 {
  "schemaVersion": 2,
- "version": "20261030T112714Z-0153e0e0",
- "syncedAt": "2026-10-30T11:27:14Z",
- "generatedAt": "2026-10-30T11:27:14Z",
+ "version": "20261031T105823Z-f70ffe2c",
+ "syncedAt": "2026-10-31T10:58:23Z",
+ "generatedAt": "2026-10-31T10:58:23Z",
  "universe": {
-  "path": "snapshot/20261030T112714Z-0153e0e0/universe.json",
-  "sha256": "48ed457d8c5f0a9a5289e81a49b787352395c1c198b520853c244ef25565d7f7",
-  "bytes": 38698
+  "path": "snapshot/20261031T105823Z-f70ffe2c/universe.json",
+  "sha256": "32797134b52338ef7d8b6bd4d5c0fedf290bb2473458ef6cec0a966bab9f2465",
+  "bytes": 38098
  },
  "archive": {
-  "path": "snapshot/20261030T112714Z-0153e0e0/archive.json",
-  "sha256": "c2e6e633c2208611924621db838686366369a79a2e0fb4c799c760edd954e8e8",
-  "bytes": 813481
+  "path": "snapshot/20261031T105823Z-f70ffe2c/archive.json",
+  "sha256": "7e37de4adbd4521e8ed44b00b0e2bd1d08bcfa5847f0a3298161cf4eedf4329b",
+  "bytes": 836320
  },
  "previous": [
+  "20261030T112714Z-0153e0e0",
   "20261029T113537Z-893f7c64",
   "20261028T112456Z-530d6300",
   "20261027T104037Z-b7938c02",
   "20261026T111341Z-c23fdba7",
-  "20261025T095356Z-ae652f84",
-  "20261024T093701Z-e0cb55a3"
+  "20261025T095356Z-ae652f84"
  ]
 }
